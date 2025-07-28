@@ -17,14 +17,16 @@ Approach Used : Two Pointer
 
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        int n =nums.length; 
-        for(int i = 0; i<n ; i++){
-            for(int j = i+1; j<n; j++){
-                if(nums[i] == nums[j]){
-                    return true;
-                }
+        int start = 0; 
+        int end = nums.length; 
+
+        while(start<=end){
+            if(start == end){
+                return true; 
             }
+            start++; 
+            end--; 
         }
-        return false; 
+        return false;
     }
 }
