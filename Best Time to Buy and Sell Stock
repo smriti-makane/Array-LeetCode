@@ -14,7 +14,7 @@ Explanation: In this case, no transactions are done and the max profit = 0
 
 Approach used : Sliding Window
 
-class Solution {
+class Solution { 
     public int maxProfit(int[] prices) {
         int n = prices.length; 
         int maxi = 0; 
