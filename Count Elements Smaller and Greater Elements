@@ -1,0 +1,32 @@
+2148. Count Elements With Strictly Smaller and Greater Elements 
+Given an integer array nums, return the number of elements that have both a strictly smaller and a strictly greater element appear in nums.
+
+Example 1:
+Input: nums = [11,7,2,15]
+Output: 2
+
+Example 2:
+Input: nums = [-3,3,3,90]
+Output: 2
+class Solution {
+    public int countElements(int[] nums) {
+        int n = nums.length;
+        int min = Integer.MAX_VALUE;   
+        int max = Integer.MIN_VALUE;  
+
+        for (int i = 0; i < n; i++) {
+            if (nums[i] < min) min = nums[i];
+            if (nums[i] > max) max = nums[i];
+        }
+
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            if (nums[i] > min && nums[i] < max) {
+                count++;
+            }
+        }
+        return count;
+    }
+}
+
+
