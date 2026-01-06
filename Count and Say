@@ -6,7 +6,7 @@ Run-length encoding (RLE) is a string compression method that works by replacing
 
 Example 1: 
 Input: n = 4
-Output: "1211"
+Output: "1211" 
 
 Example 2:
 Input: n = 1
