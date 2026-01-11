@@ -1,6 +1,7 @@
 📊 Arrays – Problem Solving & Solutions
 
 📌 Overview
+
 This repository contains a curated collection of Array problems along with clear, optimized solutions.
 The goal of this repository is to strengthen problem-solving skills, master array fundamentals, and prepare for coding interviews in product-based and service-based companies.
 
