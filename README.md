@@ -82,7 +82,7 @@ Missing Number
 
 Language: Java (Primary)
 
-IDE: IntelliJ IDEA / VS Code
+IDE: VS Code
 
 Platform References: LeetCode, GeeksforGeeks, CodeStudio
 
